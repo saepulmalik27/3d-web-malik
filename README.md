@@ -1,4 +1,5 @@
 ## setup project using vite
+
 ```
 yarn create vite
 
@@ -8,6 +9,7 @@ yarn create vite
 ```
 
 ## Install Tailwindcss
+
 ```
 yarn add -D tailwindcss postcss autoprefixer
 
@@ -35,5 +37,13 @@ export default {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+```
+
+## setup alias on vite
+
+```
+//vite.config.js
+
 
 ```
