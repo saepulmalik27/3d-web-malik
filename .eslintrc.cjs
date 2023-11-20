@@ -25,6 +25,11 @@ module.exports = {
         // Packages starting with `~`
         ["^~"],
         ["^pages"],
+        ["^@/types"],
+        ["^@/pages"],
+        ["^@/models"],
+        // imports starting with @/components
+        ["^@/components"],
         ["^components"],
         ["^.+\\.s?css$"],
         // Imports starting with `../`

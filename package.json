@@ -15,9 +15,13 @@
     "commit": "cz"
   },
   "dependencies": {
+    "@react-spring/three": "^9.7.3",
+    "@react-three/drei": "^9.88.16",
+    "@react-three/fiber": "^8.15.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.19.0"
+    "react-router-dom": "^6.19.0",
+    "three": "^0.158.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.4.2",
@@ -25,6 +29,7 @@
     "@commitlint/cz-commitlint": "^18.4.2",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
+    "@types/three": "^0.158.2",
     "@typescript-eslint/eslint-plugin": "^6.10.0",
     "@typescript-eslint/parser": "^6.10.0",
     "@vitejs/plugin-react": "^4.2.0",

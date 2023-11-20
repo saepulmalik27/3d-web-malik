@@ -9,10 +9,6 @@ const navbarList = [
     name: 'Projects',
     path: '/projects',
   },
-  {
-    name: 'Contact',
-    path: '/contact',
-  },
 ];
 
 const Navbar = () => {
@@ -20,9 +16,9 @@ const Navbar = () => {
     <header className='header'>
       <NavLink
         to={'/'}
-        className='p- flex h-10 w-10 items-center justify-center rounded-lg bg-white font-bold'
+        className='flex h-10 w-10 items-center justify-center rounded-full bg-gray-100'
       >
-        <p className='blue-gradient_text'>SM</p>
+        <img src='/assets/logo.png' className='rounded-full shadow-md' />
       </NavLink>
       <nav className='flex gap-7 text-lg font-medium'>
         {navbarList.map((item, index) => (
